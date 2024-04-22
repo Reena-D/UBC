@@ -22,7 +22,7 @@ const Homepage = () => {
                 </div>
                
                   
-                <input className="flex gap-4 px-8 py-4 mt-10  text-base rounded border border-solid bg-stone-950 border-neutral-700 text-[#979797] "
+                <input className="flex gap-4 px-8 py-4 mt-10  text-lg rounded border border-solid bg-stone-950 border-neutral-700 text-[#979797] "
                 placeholder='Search only by Brand or Model Name'
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
