@@ -1,6 +1,5 @@
 import React from 'react';
 
-
   const NavbarItems = [
     { icon: "./search.svg", label: "Product Search" },
     { icon: "./dashboard.svg", label: "Dashboard" },
@@ -14,7 +13,7 @@ import React from 'react';
 
 const Sidebar = () => {
   return (
-       <div className="min-w-60">
+    <div className="min-w-60">
       <div className="min-w-60 fixed bottom-0 top-0 left-0  bg-[#0D0D0D]  text-[#CFCFCF] flex flex-col justify-between font-bold">
       <section>
         <img src="./logo.png" className='m-5' alt='logo'/>
@@ -36,8 +35,8 @@ const Sidebar = () => {
       })}
     </div>
       </section>
+      
       <section>
-        
         <div className=' flex flex-col justify-start items-start font-[450] gap-4 my-3 ml-1 rounded py-2 px-4 '>
           <div className='flex gap-5 items-start'>
             <img src='./arrow.svg' alt='hide sidebar' className='' />
@@ -50,8 +49,6 @@ const Sidebar = () => {
           <p className='flex gap-4'>
             <img src='./dot close.svg' alt='refer'/>
             Refer an Engineer</p>
-
-
         </div>
       </section>
     </div>

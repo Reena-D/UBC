@@ -1,15 +1,11 @@
 import React from 'react'
-
 import { Link } from 'react-router-dom';
 
 const ProductList = () => {
 
-
-
   return (
     
     <div className='overflow-y-scroll '>
-      
       <div className="flex justify-end h-[250px] rounded-lg border border-solid shadow-2xl bg-stone-950 border-[#6f6f6f] border-opacity-50 max-w-[933px]">
       <div className="px-10 py-5 w-full rounded-lg border border-solid bg-neutral-900 border-neutral-700 border-opacity-50 max-w-[706px] max-md:px-5 max-md:max-w-full">
         <div className="flex max-md:flex-col">
@@ -76,8 +72,7 @@ const ProductList = () => {
                 Add Asset
               </div>
               <div className="justify-center px-6 py-2 mt-8 rounded-sm border border-orange-500 border-solid ">
-                <span className="text-neutral-100">Validtate</span>
-               
+                <span className="text-neutral-100">Validtate</span>              
               </div>
             </div>
           </div>
@@ -137,8 +132,7 @@ const ProductList = () => {
                 <div className="tracking-tight underline">i3-12700HX</div>
                 <div className="tracking-tight underline">i5-12800HX</div>
                 <div className="tracking-tight underline">i7-12900HX</div>
-              </div>
-             
+              </div>            
             </div>
           </div>
           <div className="flex flex-col w-[20%] mt-3">
@@ -150,16 +144,14 @@ const ProductList = () => {
                 Add Asset
               </div>
               <div className="justify-center px-6 py-2 mt-8 rounded-sm border border-[#F37413] border-solid ">
-                <span className="text-neutral-100">Validtate</span>
-               
+                <span className="text-neutral-100">Validtate</span>              
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    
+    </div> 
   )
 }
 

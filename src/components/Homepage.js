@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 import NotFound from './NotFound'
-
 import ProductList from './ProductList'
-
 
 const Homepage = () => {
 
-    const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
     
   return (
     
@@ -19,28 +17,18 @@ const Homepage = () => {
                 </div>
                 <div className="self-center mt-5 text-2xl font-normal leading-8 text-center capitalize text-[#CFCFCF]">
                   Any Electric & Electronics products
-                </div>
-               
-                  
+                </div>               
                 <input className="flex gap-4 px-8 py-4 mt-10  text-lg rounded border border-solid bg-stone-950 border-neutral-700 text-[#979797] "
                 placeholder='Search only by Brand or Model Name'
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                />
-                
+                />              
                   <br/>
-                {searchTerm === "MSI Titan GT55" ? <NotFound/>
-                :
-                ""
-  }
-  {searchTerm === "MSI Titan" ? <ProductList/> : ""}
-  
- 
+                {searchTerm === "MSI Titan GT55" ? <NotFound/> : ""}
+                {searchTerm === "MSI Titan" ? <ProductList/> : ""} 
               </div>
             </div>
-          </div>
-        
-       
+          </div>    
   )
 }
 

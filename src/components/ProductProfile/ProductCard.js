@@ -4,7 +4,6 @@ const ProductCard = () => {
   return (
     <div>
          <div className="w-60">
-      
             <div className="flex flex-col px-4 pt-5 pb-8 text-sm font-medium rounded border border-solid border-neutral-700 text-stone-300">
               <div className="text-neutral-500">Variant #2</div>
               <div className="justify-center px-2 py-3 mt-4 rounded border border-solid bg-neutral-700 border-neutral-700 text-neutral-100 max-md:pr-5">
@@ -31,7 +30,7 @@ const ProductCard = () => {
               Next
             </div>
             </div>
-  </div>
+      </div>
 
   )
 }

@@ -1,4 +1,3 @@
-
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import AddProduct from './components/AddProduct';
@@ -15,19 +14,14 @@ function App() {
      <Sidebar/>
      <Header/>
      </div>
-     
      <div>
-     
      <Routes>
      <Route path="/" element={<Homepage/>}/>
-
-      <Route path="/add_products" element={<AddProduct/>}/>
-      <Route path="/product_profile" element={<ProductProfile/>}/>
-
+     <Route path="/add_products" element={<AddProduct/>}/>
+     <Route path="/product_profile" element={<ProductProfile/>}/>
      </Routes>
      </div>
     </div>
-   
     </BrowserRouter>
   );
 }

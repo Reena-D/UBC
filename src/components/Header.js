@@ -3,9 +3,6 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='w-full h-20 bg-[#0D0D0D] flex items-center'>
- 
-      
-     
       <div className="flex flex-col grow mt-6 max-md:max-w-full">
             <div className="flex gap-10 justify-between mx-8 max-md:flex-wrap max-md:mr-2.5 max-md:max-w-full">
               <div className="my-auto text-3xl font-semibold text-[#F37413]">
@@ -20,7 +17,6 @@ const Header = () => {
                   alt='notification'
                     loading="lazy"
                     src="./Notification.png"
-                  
                   />
                   <div className="flex flex-col">
                     <div className="text-base font-semibold text-stone-300">
@@ -35,8 +31,7 @@ const Header = () => {
                   <img
                   alt='drop down'
                     loading="lazy"
-                    src="./Arrow drop down.png"
-                   
+                    src="./Arrow drop down.png"                  
                   />
                 </div>
               </div>

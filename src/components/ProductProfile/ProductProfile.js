@@ -3,8 +3,6 @@ import ProductCard from './ProductCard'
 
 const ProductProfile = () => {
 
-    
-
   return (
     <div className='bg-[#0D0D0D] py-8 border-1'>
     <div className=' mx-auto w-[75%] rounded border border-solid bg-neutral-900 border-neutral-800'>
@@ -40,7 +38,6 @@ const ProductProfile = () => {
         <div className="flex mt-5">
           <div className="text-xs font-medium text-neutral-500">
             Product data capability <span className='font-bold'>80%</span>
-          
           </div>
         </div>
         <div className="mt-5 text-base text-neutral-500">MSI</div>
@@ -49,8 +46,6 @@ const ProductProfile = () => {
         Titan GT76
       </div>
       
-    
-
       <div className="mt-2 w-full min-h-[1px]" />
       <div className="flex gap-5 mt-5 text-sm font-normal text-neutral-500">
         <div className="flex flex-col flex-1">
@@ -79,8 +74,7 @@ const ProductProfile = () => {
     <div>
       <p className='text-[#F37413] px-7 py-7 text-lg'>Variants</p>
       <p className='text-white px-7'>Laptop Specification</p>
-      
-    
+
             <div className='grid grid-cols-3 gap-10 px-8 py-6'>
             <ProductCard/>
             <ProductCard/>
@@ -90,16 +84,14 @@ const ProductProfile = () => {
             <div className='w-[220px] h-[220px] border-1 rounded border border-orange-500 border-dashed bg-opacity-10 flex items-center justify-center'>
               <div className='text-md font-medium text-white'>+ Add More Variants</div>
               </div>
-            
             </div>
             <div className='flex justify-end py-10'>
               <button className='bg-[#F37413] text-white w-[150px] h-[50px] rounded font-medium'>Confirm</button> 
-              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    
   )
 }
 
