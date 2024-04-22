@@ -18,7 +18,7 @@ const Sidebar = () => {
       <div className="min-w-60 fixed bottom-0 top-0 left-0  bg-[#0D0D0D]  text-[#CFCFCF] flex flex-col justify-between font-bold">
       <section>
         <img src="./logo.png" className='m-5' alt='logo'/>
-        <div className="w-52 m-1  ">
+        <div className="w-52 m-3 py-3 ">
       {NavbarItems.map((item) => {
         const { icon, label } = item;
         return (

@@ -12,7 +12,7 @@ const Homepage = () => {
     
     <div className="flex flex-col ml-5 w-[100%]  bg-[#0D0D0D]">
           
-            <div className="flex justify-center items-center px-16 py-20 mt-4 bg-stone-950 ">
+            <div className="flex justify-center items-center px-16 py-8 mt-4 bg-stone-950 ">
               <div className="flex flex-col mb-96 max-w-full w-[975px]">
                 <div className="self-center text-5xl font-semibold tracking-tight text-center text-[#F5F5F5] ">
                   Suggest & Review a Product
